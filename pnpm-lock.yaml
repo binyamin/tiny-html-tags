@@ -6,11 +6,13 @@ specifiers:
   html-element-attributes: ^3.1.0
   html-tags: ^3.2.0
 
+dependencies:
+  html-tags: 3.2.0
+
 devDependencies:
   aria-attributes: 2.0.1
   esbuild: 0.14.36
   html-element-attributes: 3.1.0
-  html-tags: 3.2.0
 
 packages:
 
@@ -233,4 +235,4 @@ packages:
   /html-tags/3.2.0:
     resolution: {integrity: sha512-vy7ClnArOZwCnqZgvv+ddgHgJiAFXe3Ge9ML5/mBctVJoUoYPCdxVucOywjDARn6CVoh3dRSFdPHy2sX80L0Wg==}
     engines: {node: '>=8'}
-    dev: true
+    dev: false

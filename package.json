@@ -17,7 +17,9 @@
   "devDependencies": {
     "aria-attributes": "^2.0.1",
     "esbuild": "^0.14.36",
-    "html-element-attributes": "^3.1.0",
+    "html-element-attributes": "^3.1.0"
+  },
+  "dependencies": {
     "html-tags": "^3.2.0"
   },
   "repository": {
