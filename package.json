@@ -1,10 +1,12 @@
 {
   "name": "@binyamin/html-tags",
   "version": "0.1.0",
+  "private": true,
   "description": "A tiny utility for dynamically creating HTML elements",
   "type": "module",
-  "main": "out/index.js",
-  "types": "./out/index.d.ts",
+  "main": "index.js",
+  "browser": "./out/index.js",
+  "types": "./index.d.ts",
   "scripts": {
     "build": "esbuild index.js --bundle --minify --tree-shaking --format=esm --platform=browser --outdir=out",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +19,9 @@
     "esbuild": "^0.14.36",
     "html-element-attributes": "^3.1.0",
     "html-tags": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binyamin/tiny-html-tags.git"
   }
 }
